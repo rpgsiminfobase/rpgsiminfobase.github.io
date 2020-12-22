@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+
+/*body ---------------------------------- */
+
+body {
+    background-image: url("gplaypattern_@2X.png");
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+}
+
+/*navbar ---------------------------------- */
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 75, 33);
+}
+  
+.navigation li {
+    float: left;
+}
+  
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+  
+.navigation li a:hover {
+    background-color: rgb(35, 139, 49);
+}
+
+.navigation .active {
+    background-color: #1e70a0;
+}
+
+.navigation .active a:hover {
+    background-color: #2390cf
+}
+
+/*backbutton -------------------------------------- */
+
+.backbutton a {
+    display: block;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(131, 32, 177);
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+}
+
+.backbutton a:hover {
+    background-color: rgb(148, 94, 150);
+}
+
+/*general content ---------------------------------- */
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.header {
+    color: rgb(128, 27, 128);
+}
+
+.title {
+    color: rgb(65, 65, 238);
+}
+
+.links {
+    color: blue;
+    }
+
+.links a:hover {
+    color: rgb(19, 151, 19);
+}
+
+/*content links ---------------------------------- */
+
+.linklist ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.linklist li {
+    float: left;
+}
+
+.linklist li a {
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/*math ---------------------------------- */
+
+.math a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.math a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.p-alg a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.p-alg a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.alg1 a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.alg1 a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.alg2 a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.alg2 a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.geometry a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.geometry a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.trig a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.trig a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.pre-cal a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.pre-cal a:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.calc a {
+    background-color: rgb(28, 25, 226);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.calc a:hover {
+    background-color: rgb(0, 110, 255);
+}
+/*science ---------------------------------- */
+
+.sci a {
+    background-color: rgb(19, 179, 45);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.sci a:hover {
+    background-color: rgb(76, 228, 15);
+}
+
+.biology a {
+    background-color: rgb(19, 179, 45);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.biology a:hover {
+    background-color: rgb(76, 228, 15);
+}
+
+.chemistry a {
+    background-color: rgb(19, 179, 45);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.chemistry a:hover {
+    background-color: rgb(76, 228, 15);
+}
+
+.physics a {
+    background-color: rgb(19, 179, 45);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.physics a:hover {
+    background-color: rgb(76, 228, 15);
+}
+
+.earthscience a {
+    background-color: rgb(19, 179, 45);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.earthscience a:hover {
+    background-color: rgb(76, 228, 15);
+}
+/*history ---------------------------------- */
+
+.hist a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.hist a:hover {
+    background-color: rgb(218, 231, 31);
+}
+
+.world a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.world a:hover {
+    background-color: rgb(218, 231, 31);
+}
+
+.america a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.america a:hover {
+    background-color: rgb(218, 231, 31);
+}
+
+.europe a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.europe a:hover {
+    background-color: rgb(218, 231, 31);
+}
+
+.gov a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.gov a:hover {
+    background-color: rgb(218, 231, 31);
+}
+
+.eco a {
+    background-color: rgb(219, 207, 29);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.eco a:hover {
+    background-color: rgb(218, 231, 31);
+}
+/*language ---------------------------------- */
+
+.lang a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.lang a:hover {
+    background-color: rgb(243, 52, 52);
+}
+
+.comp a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.comp a:hover {
+    background-color: rgb(243, 52, 52);
+}
+
+.vocab a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.vocab a:hover {
+    background-color: rgb(243, 52, 52);
+}
+
+.grammar a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.grammar a:hover { 
+    background-color: rgb(243, 52, 52);
+}
+
+.literature a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.literature a:hover {
+    background-color: rgb(243, 52, 52);
+}
+
+.WL a {
+    background-color: rgb(218, 32, 32);
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.WL a:hover {
+    background-color: rgb(243, 52, 52);
+}
